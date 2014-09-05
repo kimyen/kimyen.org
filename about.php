@@ -27,9 +27,6 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
             
-        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>        
-    
         <script src="./js/about.js" type="text/javascript"></script>
     </head>
 
@@ -44,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="kimyen.org">KimYen.org</a>
+                    <a class="navbar-brand" href="index.php">KimYen.org</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -74,21 +71,21 @@
                      <div class = "frame">  
                          <div class='content-post'>
                             <h3 class='title'>Hello there,</h3>
-                            <p>I'm <strong>Kimyen Truong</strong>, a Computer Science student at the University of Washington.
+                            <p class="lead">I'm <strong>Kimyen Truong</strong>, a Computer Science student at the University of Washington.
                             I'm passionate about making software that makes life easier. 
                             This site is where I practice my web programming skills.</p>
-                            <p>Thank you for stopping by!</p>
+                            <p class="lead">Thank you for stopping by!</p>
                         </div>
                     </div> 
                
                     <div class = "frame hidden">
                         <div class='content-post'>
                             <h3 class='title'>Background</h3>
-                            <p>I was born and grew up in Vietnam. I love Vietnamese culture, food, and holidays.</p>
-                            <p>I started progamming in Pascal when I was in 7th grade. 
+                            <p class="lead">I was born and grew up in Vietnam. I love Vietnamese culture, food, and holidays.</p>
+                            <p class="lead">I started progamming in Pascal when I was in 7th grade. 
                             In 2009, when I was studying Computer Science at Hochiminh University of Industry, 
                             my family decided to move to the US.</p>
-                            <p>It took me a few years to learn English. I was accepted to the CSE major at the University of Washington in March 2013. 
+                            <p class="lead">It took me a few years to learn English. I was accepted to the CSE major at the University of Washington in March 2013. 
                             I'm looking forward to an internship at Sage BioNetwork
                             this summer.</p>
                         </div>
@@ -97,9 +94,9 @@
                     <div class = "frame hidden">  
                         <div class='content-post'>
                             <h3 class='title'>Hobby</h3>
-                            <p>I love sewing and card making. Even though school takes most of my time,
+                            <p class="lead">I love sewing and card making. Even though school takes most of my time,
                            I always try to make a card or two a week.</p>
-                            <p>I'm also an amateur photographer. I love taking pictures of almost everything.
+                            <p class="lead">I'm also an amateur photographer. I love taking pictures of almost everything.
                            Editing pictures makes me feel happy. Unfotunately, my camera is so big compare to my body.
                            I only bring my camera with me when I'm not going to school (not carrying my laptop).</p>
                         </div>
@@ -108,9 +105,9 @@
                     <div class = "frame hidden">
                         <div class='content-post'>
                             <h3 class='title'>Volunteer at V.E.Y.S.</h3>
-                            <p>On Saturday and/or Sunday, I spend time volunteer at a Vietnamese Catholic Church.
+                            <p class="lead">On Saturday and/or Sunday, I spend time volunteer at a Vietnamese Catholic Church.
                            I'm a teacher, and a secretary at Vietnamese Eucharistic Youth Society in Seattle.</p>
-                            <p>The purposes of our organization is to teach youths to be virtuous people and good Christians. 
+                            <p class="lead">The purposes of our organization is to teach youths to be virtuous people and good Christians. 
                            We have about 320 kids last year from 6 yrs old to 18 yrs old. We have a few camps, picnic, and
                            retreats every year. I'm so proud to be a part of it.</p>
                         </div>
