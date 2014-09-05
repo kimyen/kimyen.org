@@ -1,0 +1,27 @@
+header {
+    text-align: right;
+}
+
+header,
+nav * {
+    background-color: #1A1B1C;
+}
+
+nav ul {
+    border-bottom: solid #000000;
+    padding: 1%;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 2%;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.current {
+    color: #FF3333;
+}

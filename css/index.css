@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Handlee', 'Comfortaa', cursive;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+a {
+    color: #00CCFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF3333;
+}
+
+footer, small {
+    font-size: 16px;
+}
+
+section {
+    font-size: 24px;
+    text-align: center;
+    margin: 2em;
+}
+
