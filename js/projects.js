@@ -7,20 +7,20 @@ var dashboard = {
 var kubi = {
 	header : "Kubi Operations <small> Human Centered Robotic Lab - University of Washington </small>",
 	description: "<p>Kubi is a robot that gives users the freedom to interact while video conferencing. I designed the robot facial expressions and actions on Nexus 7 using Eclipse for Android Developers. I’m working on merging and syncing a chatbot, robot movements, and facial expressions together so that users can have a human-like conversation with the robot.</p>",
-	technology: "",
-	source: ""
+	technology: "<ul><li>Eclipse ADT</li><li>OpenCV</li></ul>",
+	source: "<p>private repo</p>"
 };
 var campusPath = {
 	header : "Campus Path <small> University of Washington </small>",
-	description: "",
-	technology: "",
-	source: ""
+	description: "<p>I developed a graph ADT and used Dijkstra's algorithm to find the shortest path from one location to another location at UW campus. I also implemented a Graphical User Interface for the application.</p> ",
+	technology: "<ul><li>Eclipse</li></ul>",
+	source: "<button class='button'><a href='https://github.com/kimyen/CampusPaths'>Campus Paths</a></button>"
 };
 var bj = {
-	header : "Black Jack <small> Bellevue College </small>",
-	description: "",
-	technology: "",
-	source: ""
+	header : "Blackjack <small> Bellevue College </small>",
+	description: "<p>Blackjack is a computer game that follow the rules of American Blackjack. The computer acts as a dealer. In the beginning, the player will be given a certain amount of money. Blackjack allows users to bet any amount of money within the amount they have and take back any amount of money within the amount they bet before a game begins... It can be addictive.</p>",
+	technology: "<ul><li>Eclipse</li></ul>",
+	source: "<button class='button'><a href='https://github.com/kimyen/Java'>Blackjack</a></button>"
 };
 
 $(document).ready(function() {
