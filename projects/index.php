@@ -11,9 +11,6 @@
         <!-- Bootstrap -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Custom CSS -->
-        <link href="css/portfolio-item.css" rel="stylesheet">
-
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -24,12 +21,13 @@
         <!-- For header and footer -->
         <link href="../css/sticky-footer-navbar.css" type="text/css" rel="stylesheet" />
 
-        <link href="../css/puzzle.css" type="text/css" rel="stylesheet" />
-
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="../js/bootstrap.min.js"></script>
+        
+        <!-- javascript for projects -->
+        <script src="../js/projects.js"></script>
             
     </head>
 
@@ -64,30 +62,25 @@
             <!-- Portfolio Item Heading -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Portfolio Item
-                        <small>Item Subheading</small>
-                    </h1>
+                    <h1 class="page-header" id="project-header"></h1>
                 </div>
             </div>
             <!-- /.row -->
             
             <!-- Portfolio Item Row -->
-            <div class="row">
+            <div class="row" id="item-details">
 
-                <div class="col-md-8">
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                <div class="col-md-8" >
+                    <img id="project-img" class="img-responsive">
                 </div>
 
                 <div class="col-md-4">
                     <h3>Project Description</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                    <h3>Project Details</h3>
-                    <ul>
-                        <li>Lorem Ipsum</li>
-                        <li>Dolor Sit Amet</li>
-                        <li>Consectetur</li>
-                        <li>Adipiscing Elit</li>
-                    </ul>
+                    <div id="project-description"></div>
+                    <h3>Technology</h3>
+                    <div id="technology"></div>
+                    <h3>Source Code</h3>
+                    <div id="source-code"></div>
                 </div>
 
             </div>
@@ -97,30 +90,30 @@
             <div class="row">
 
                 <div class="col-lg-12">
-                    <h3 class="page-header">Related Projects</h3>
+                    <h3 class="page-header">Projects</h3>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                    <a href="#"> Dashboard
+                        <img class="img-responsive portfolio-item" id="dashboard" src="/img/dashboard.png" alt="dashboard">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                    <a href="#"> Kubi Operations
+                        <img class="img-responsive portfolio-item" id="kubi" src="/img/kubi.jpg" alt="Kubi">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                    <a href="#"> Campus Path
+                        <img class="img-responsive portfolio-item" id="campusPath" src="/img/campuspath.png" alt="campus path">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
+                    <a href="#"> Blackjack
+                        <img class="img-responsive portfolio-item" id="bj" src="/img/bj.png" alt="blackjack">
                     </a>
                 </div>
 
