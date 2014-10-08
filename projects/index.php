@@ -94,26 +94,26 @@
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#"> Dashboard
-                        <img class="img-responsive portfolio-item" id="dashboard" src="/img/dashboard.png" alt="dashboard">
+                    <a class="portfolio-item" id="dashboard" href="#"> Dashboard
+                        <img class="img-responsive" src="/img/dashboard.png" alt="dashboard">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#"> Kubi Operations
-                        <img class="img-responsive portfolio-item" id="kubi" src="/img/kubi.jpg" alt="Kubi">
+                    <a class="portfolio-item" id="kubi" ref="#"> Kubi Operations
+                        <img class="img-responsive" src="/img/kubi.jpg" alt="Kubi">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#"> Campus Path
-                        <img class="img-responsive portfolio-item" id="campusPath" src="/img/campuspath.png" alt="campus path">
+                    <a class="portfolio-item" id="campusPath" href="#"> Campus Path
+                        <img class="img-responsive" src="/img/campuspath.png" alt="campus path">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#"> Blackjack
-                        <img class="img-responsive portfolio-item" id="bj" src="/img/bj.png" alt="blackjack">
+                    <a class="portfolio-item" id="bj" href="#"> Blackjack
+                        <img class="img-responsive" src="/img/bj.png" alt="blackjack">
                     </a>
                 </div>
 
