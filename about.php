@@ -61,12 +61,13 @@
                 <h1>KimYen Truong</h1>
             </div>
             
-            <div id="content"> 
-                <div class="img">
+            <div id="content">
+            <div class="row"> 
+                <div class="img col-md-4">
                     <img src="./img/profile.jpg" alt="Kimyen's profile picture" id="profile_picture">
                 </div>        
 
-                <div id='rotating-box'>
+                <div class="col-md-8" id='rotating-box'>
            
                      <div class = "frame">  
                          <div class='content-post'>
@@ -114,13 +115,16 @@
                     </div>
 
                 </div> <!-- rotating box ends here -->
-
-                <div id="buttons">
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8" id="buttons">
                     <div id="zero" class="button shown"></div>
                     <div id="one" class="button"></div>
                     <div id="two" class="button"></div>
                     <div id="three" class="button"></div>
                 </div>
+            </div>
             </div> <!-- content ends here -->
         </div>
         <!-- Page Content -->
