@@ -61,12 +61,13 @@
                 <h1>KimYen Truong</h1>
             </div>
             
-            <div id="content"> 
-                <div class="img">
+            <div id="content">
+            <div class="row"> 
+                <div class="img col-md-4">
                     <img src="./img/profile.jpg" alt="Kimyen's profile picture" id="profile_picture">
                 </div>        
 
-                <div id='rotating-box'>
+                <div class="col-md-8" id='rotating-box'>
            
                      <div class = "frame">  
                          <div class='content-post'>
@@ -85,9 +86,7 @@
                             <p class="lead">I started progamming in Pascal when I was in 7th grade. 
                             In 2009, when I was studying Computer Science at Hochiminh University of Industry, 
                             my family decided to move to the US.</p>
-                            <p class="lead">It took me a few years to learn English. I was accepted to the CSE major at the University of Washington in March 2013. 
-                            I'm looking forward to an internship at Sage BioNetwork
-                            this summer.</p>
+                            <p class="lead">I was accepted to the CSE major at the University of Washington in March 2013. I started my Undergraduate Research in March 2014. I started my internship at Sage BioNetwork in June 2014. </p>
                         </div>
                     </div>
  
@@ -97,8 +96,7 @@
                             <p class="lead">I love sewing and card making. Even though school takes most of my time,
                            I always try to make a card or two a week.</p>
                             <p class="lead">I'm also an amateur photographer. I love taking pictures of almost everything.
-                           Editing pictures makes me feel happy. Unfotunately, my camera is so big compare to my body.
-                           I only bring my camera with me when I'm not going to school (not carrying my laptop).</p>
+                           Editing pictures makes me feel happy.</p>
                         </div>
                     </div> 
 
@@ -106,7 +104,7 @@
                         <div class='content-post'>
                             <h3 class='title'>Volunteer at V.E.Y.S.</h3>
                             <p class="lead">On Saturday and/or Sunday, I spend time volunteer at a Vietnamese Catholic Church.
-                           I'm a teacher, and a secretary at Vietnamese Eucharistic Youth Society in Seattle.</p>
+                           I'm a teacher at Vietnamese Eucharistic Youth Society in Seattle.</p>
                             <p class="lead">The purposes of our organization is to teach youths to be virtuous people and good Christians. 
                            We have about 320 kids last year from 6 yrs old to 18 yrs old. We have a few camps, picnic, and
                            retreats every year. I'm so proud to be a part of it.</p>
@@ -114,13 +112,16 @@
                     </div>
 
                 </div> <!-- rotating box ends here -->
-
-                <div id="buttons">
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8" id="buttons">
                     <div id="zero" class="button shown"></div>
                     <div id="one" class="button"></div>
                     <div id="two" class="button"></div>
                     <div id="three" class="button"></div>
                 </div>
+            </div>
             </div> <!-- content ends here -->
         </div>
         <!-- Page Content -->

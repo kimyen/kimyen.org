@@ -71,7 +71,7 @@
             <div class="row" id="item-details">
 
                 <div class="col-md-8" >
-                    <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                    <img id="project-img" class="img-responsive">
                 </div>
 
                 <div class="col-md-4">
@@ -94,26 +94,26 @@
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" id="dashboard" src="http://placehold.it/500x300" alt="dashboard">
+                    <a class="portfolio-item" id="dashboard" href="#"> Dashboard
+                        <img class="img-responsive" src="/img/dashboard.png" alt="dashboard">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" id="kubi" src="http://placehold.it/500x300" alt="Kubi">
+                    <a class="portfolio-item" id="kubi" ref="#"> Kubi Operations
+                        <img class="img-responsive" src="/img/kubi.jpg" alt="Kubi">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" id="campusPath" src="http://placehold.it/500x300" alt="campus path">
+                    <a class="portfolio-item" id="campusPath" href="#"> Campus Path
+                        <img class="img-responsive" src="/img/campuspath.png" alt="campus path">
                     </a>
                 </div>
 
                 <div class="col-sm-3 col-xs-6">
-                    <a href="#">
-                        <img class="img-responsive portfolio-item" id="bj" src="http://placehold.it/500x300" alt="black jack">
+                    <a class="portfolio-item" id="bj" href="#"> Blackjack
+                        <img class="img-responsive" src="/img/bj.png" alt="blackjack">
                     </a>
                 </div>
 

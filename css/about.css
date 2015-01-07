@@ -1,14 +1,9 @@
-.img {
-    float: left;
-}
-
 #profile_picture {
     height: 400px;
 }
 
 #rotating-box {
     height: 400px;
-    margin-left: 30%;
 }
 
 .hidden {
