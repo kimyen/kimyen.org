@@ -86,7 +86,7 @@
                             <p class="lead">I started progamming in Pascal when I was in 7th grade. 
                             In 2009, when I was studying Computer Science at Hochiminh University of Industry, 
                             my family decided to move to the US.</p>
-                            <p class="lead">I was accepted to the CSE major at the University of Washington in March 2013. I started my Undergraduate Research in March 2014. I started my internship at Sage BioNetwork in June 2014. </p>
+                            <p class="lead">I was accepted to the CSE major at the University of Washington in March 2013. I started my Undergraduate Research in March 2014. I'm working on developing a robot agent that teaches English in developing countries. I joined Sage BioNetwork in June 2014 as an intern.</p>
                         </div>
                     </div>
  
