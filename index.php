@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>KimYen.org</title>
+        <title>KimYen Truong</title>
 
         <link href="./img/favicon.ico" type="image/gif" rel="shortcut icon" />
 
@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>  
                     </button>
-                    <a class="navbar-brand" href="index.php">KimYen.org</a>
+                    <a class="navbar-brand" href="index.php">KimYen Truong</a>
                 </div>
                 <div class="collapse navbar-collapse">      
                     <ul class="nav navbar-nav">
